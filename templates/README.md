@@ -1,5 +1,3 @@
-# Let's generate a well-structured, clean README.md file using Python script.
-
 readme_content = """# Smart Real Estate & Neighborhood Price Predictor 🏡🤖
 
 A Machine Learning-powered REST API and interactive web application designed to segment properties into geographic neighborhood hot zones using **K-Means Clustering** and predict property valuations using **Random Forest Regression**. 
