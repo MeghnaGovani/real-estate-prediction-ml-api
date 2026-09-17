@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate Predictor</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h2>Smart Real Estate Price Predictor</h2>
+    <form id="prediction-form">
+        <input type="number" step="any" id="latitude" placeholder="Latitude" required>
+        <input type="number" step="any" id="longitude" placeholder="Longitude" required>
+        <input type="number" id="sqft" placeholder="Square Feet" required>
+        <input type="number" id="bedrooms" placeholder="Bedrooms" required>
+        <button type="submit">Predict Price</button>
+    </form>
+
+    <div id="result" style="display:none;">
+        <h3>Predicted Price: $<span id="price"></span></h3>
+        <p>Cluster Zone: #<span id="cluster"></span></p>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
